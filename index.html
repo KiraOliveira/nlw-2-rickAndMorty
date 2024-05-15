@@ -63,14 +63,13 @@
           <div class="text">
             <h2 class="title">Rick and Morty</h2>
             <p>
-              An animated series that follows the exploits of a super scientist
-              and his not-so-bright grandson.
+              Uma série animada que acompanha as façanhas de um supercientista e seu neto não tão brilhante..
             </p>
             <a
               class="button"
               href="https://www.adultswim.com/videos/rick-and-morty/"
-              >Saiba Mais</a
-            >
+              >Saiba Mais
+            </a>
           </div>
         </div>
       </section>
@@ -89,50 +88,9 @@
           <div class="text">
             <h2 class="title">Sobre</h2>
             <p>
-              Rick and Morty is an American adult animated science fiction
-              sitcom created by Justin Roiland and Dan Harmon for Cartoon
-              Network's nighttime Adult Swim programming block. The series
-              follows the misadventures of cynical mad scientist Rick Sanchez
-              and his good-hearted but fretful grandson Morty Smith, who split
-              their time between domestic life and interdimensional adventures.
+              Rick e Morty é uma sitcom americana de ficção científica animada para adultos criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim do Cartoon Network. 
+              A série segue as desventuras do cínico cientista louco Rick Sanchez e seu neto de bom coração, mas inquieto, Morty Smith, que dividem seu tempo entre a vida doméstica e aventuras interdimensionais.
             </p>
-            <!--<p>
-              he show revolves around the adventures of the members of the Smith
-              household, which consists of parents Jerry and Beth, their
-              children Summer and Morty, and Beth's father, Rick Sanchez, who
-              lives with them as a guest. According to Justin Roiland, the
-              family lives outside of Seattle, Washington.[5] The adventures of
-              Rick and Morty, however, take place across an infinite number of
-              realities, with the characters travelling to other planets and
-              dimensions through portals and Rick's flying car.
-            </p>
-            <p>
-              Rick is an eccentric and alcoholic mad scientist, who eschews many
-              ordinary conventions such as school, marriage, love, and family.
-              He frequently goes on adventures with his 14-year-old grandson,
-              Morty, a kind-hearted but easily distressed boy, whose naïve but
-              grounded moral compass plays counterpoint to Rick's Machiavellian
-              ego. Morty's 17-year-old sister, Summer, is a more conventional
-              teenager who worries about improving her status among her peers
-              and sometimes follows Rick and Morty on their adventures. The
-              kids' mother, Beth, is a generally level-headed person and
-              assertive force in the household, though self-conscious about her
-              professional role as a horse surgeon. She is dissatisfied with her
-              marriage to Jerry, a simple-minded and insecure person, who
-              disapproves of Rick's influence over his family.
-            </p>
-            <p>
-              Different versions of the characters inhabit other dimensions
-              throughout the show's multiverse and their personal
-              characteristics can vary from one reality to another. The show's
-              original Rick identifies himself as "Rick Sanchez of Earth
-              Dimension C-137", in reference to his original universe, but this
-              does not necessarily apply to every other member of the Smith
-              household. For instance, in the first-season episode "Rick Potion
-              #9", after turning the entire world population into monsters, Rick
-              and Morty move to a different dimension, leaving Summer, Beth and
-              Jerry behind.
-            </p>-->
           </div>
         </div>
       </section>
@@ -141,107 +99,26 @@
 
       <!-- SERVICES -->
       <section class="section" id="services">
-        <div class="container grid">
+        <div class="container grid" id="app">
           <header>
             <h2 class="title">Temporadas</h2>
             <p class="subtitle">
-              Com 5 temporadas lançadas, <strong>Rick and Morty</strong> já
+              Com 7 temporadas lançadas, <strong>Rick and Morty</strong> já
               conquistou milhares de fãs em inúmeros países, informações que já
-              está renovado para a 6ª temporada.
+              está renovado para a 8ª temporada.
             </p>
           </header>
-          <div class="cards grid">
-            <div class="card">
+
+          <div class="cards grid" class="characters">
+            <div class="card" class="item" v-for="item of characters">
               <i class="icon-woman-hair"></i>
-              <h3 class="title">1ª Temporada</h3>
-              <p>
-                Após ficar desaparecido por quase vinte anos, o cientista Rick
-                Sanchez reaparece na porta da casa de sua filha Beth para morar
-                com ela e sua família, Beth logo aceita e começa então uma
-                agitação com as invenções um tanto perigosos de Rick. Isso não
-                seria de todo modo ruim, fora o caso de Morty e Summer seus
-                netos serem envolvidos nas suas insanas aventuras.
-              </p>
+              <h3 class="title">{{item.name}}</h3>
+              <p>{{item.bio}}</p>
               <iframe
                 id="play"
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/BFTSrbB2wII"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="card">
-              <i class="icon-trim"></i>
-              <h3 class="title">2ª Temporada</h3>
-              <p>
-                Após Rick e Morty terem decidido descongelar o tempo, eles terão
-                de enfrentar parasitas alienígenas, Jerrys alternativos e uma
-                dimensão que possivelmente nem existe.
-              </p>
-              <iframe
-                id="play"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/_IZfO_LfK5Q"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="card">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">3ª Temporada</h3>
-              <p>
-                Morty e Summer fazem uma viagem interdimensional para encontrar
-                Rick, mas acabam achando vários sósias do cientista. Morty quer
-                que Rick apague suas memórias. A nova namorada de Jerry não
-                parece confiável.
-              </p>
-              <iframe
-                id="play"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/vnIG6LzMnk0"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="card">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">4ª Temporada</h3>
-              <p>
-                A dupla que dá título ao programa aparece desvendando os novos
-                mistérios da galáxia, enquanto lidam com autoridades espaciais
-                que já os perseguem há um bom tempo.
-              </p>
-              <iframe
-                id="play"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/hl1U0bxTHbY"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="card">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">5ª Temporada</h3>
-              <p>
-                Os dois protagonistas se arremessam em direção a um planeta em
-                uma nave em ruínas, momento em que Morty decide chamar Jessica
-                para confessar seus sentimentos. Apesar de como essas coisas
-                geralmente acontecem, ela realmente diz a ele que sente o mesmo,
-                então ele decidiu que realmente preferia não morrer.
-                Infelizmente, o planeta em que caíram parece bastante
-                desagradável, e o Sr. Nimbus, ao estilo Aquaman, surge da água
-                como uma das festas de boas-vindas mais infelizes até o momento.
-                .
-              </p>
-              <iframe
-                id="play"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/DuYpZeszaM4"
+                :src="item.link" :alt="item.brokenLink"
                 frameborder="0"
                 allowfullscreen
               ></iframe>
@@ -259,92 +136,16 @@
             <h2 class="title">O que os fãs estão comentando</h2>
           </header>
           <div class="testimonials swiper-container">
-            <div class="swiper-wrapper">
-              <div class="testimonials swiper-slide">
+            <div class="swiper-wrapper" class="testimonials">
+              <div class="testimonials swiper-slide" v-for="item of testimonials">
                 <blockquote>
                   <p>
                     <span>&ldquo;</span>
-                    Lorem Ipsum é simplesmente uma simulação de texto da
-                    indústria tipográfica e de impressos, e vem sendo utilizado
-                    desde o século XVI.
+                    {{item.comments}}
                   </p>
                   <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/women/6.jpg"
-                      alt="Mulher parda, usando óculos de armação preta, usando uma blusa branca, cabelo preto em coque, ao fundo uma parede azul clara"
-                    />
-                    Bia Fray
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonials swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem Ipsum é simplesmente uma simulação de texto da
-                    indústria tipográfica e de impressos, e vem sendo utilizado
-                    desde o século XVI.
-                  </p>
-                  <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/women/9.jpg"
-                      alt="Mulher branca, de cabelo pink curto, sorrindo, ao fundo uma parede de livros"
-                    />
-                    Fran Cross
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonials swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem Ipsum é simplesmente uma simulação de texto da
-                    indústria tipográfica e de impressos, e vem sendo utilizado
-                    desde o século XVI.
-                  </p>
-                  <cite>
-                    <img
-                      src="/assets/img/perfil.jpeg"
-                      alt="Mulher branca, de cabelo castanho escuro longo, olhos castanhos escuros, sorrindo, usando uma camisa cinza, ao fundo uma parede branca com mensagens"
-                    />
-                    Kira Oliveira
-                  </cite>
-                </blockquote>
-              </div>
-              <div class="testimonials swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem Ipsum é simplesmente uma simulação de texto da
-                    indústria tipográfica e de impressos, e vem sendo utilizado
-                    desde o século XVI.
-                  </p>
-                  <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/women/87.jpg"
-                      alt="Mulher branca, de cabelo castanho claro longo, usando uma camisa vermelha, ao fundo uma parede marrom"
-                    />
-                    Lady Croft
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonials swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem Ipsum é simplesmente uma simulação de texto da
-                    indústria tipográfica e de impressos, e vem sendo utilizado
-                    desde o século XVI.
-                  </p>
-                  <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/women/47.jpg"
-                      alt="Mulher branca, de cabelo castanho escuro curso e escaracolado,sorrindo, usando uma camisa cinza, ao fundo uma parede pink"
-                    />
-                    Pink Blue
+                    <img :src="item.avatar" :alt="item.textAlt" />
+                    {{item.name}}
                   </cite>
                 </blockquote>
               </div>
@@ -376,13 +177,6 @@
               <i class="icon-whatsapp"></i>Saiba Mais</a
             >
           </div>
-          <!--<div class="links">
-            <ul class="grid">
-              <li><i class="icon-phone"></i>11 00000-0000</li>
-              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
-              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
-            </ul>
-          </div>-->
         </div>
       </section>
 
@@ -416,13 +210,15 @@
 
     <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
+    <!-- MAIN INTERAÇÃO JS-->
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
     <!-- SWIPER -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- SCROLLREVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- MAIN INTERAÇÃO JS-->
-    <script src="main.js"></script>
   </body>
 </html>
