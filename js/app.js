@@ -61,35 +61,35 @@ const LIST = [
     {
         id: 1,
         name: 'Bia Fray',
-        comments: 'Inserir um texto',
+        comments: 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI',
         avatar: 'https://randomuser.me/api/portraits/women/6.jpg',
         textAlt: 'Mulher parda, usando óculos de armação preta, usando uma blusa branca, cabelo preto em coque, ao fundo uma parede azul clara'
     },
     {
         id: 2,
         name: 'Fran Cross',
-        comments: 'Inserir um texto',
+        comments: 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI',
         avatar: 'https://randomuser.me/api/portraits/women/9.jpg',
         textAlt: 'Mulher branca, de cabelo pink curto, sorrindo, ao fundo uma parede de livros'
     },
     {
         id: 3,
         name: 'Kira Oliveira',
-        comments: 'Inserir um texto',
+        comments: 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI',
         avatar: 'assets/img/perfil.jpeg',
         textAlt: 'Mulher branca, de cabelo castanho escuro longo, olhos castanhos escuros, sorrindo, usando uma camisa cinza, ao fundo uma parede branca com mensagens'
     },
     {
         id: 4,
         name: 'Lady Croft',
-        comments: 'Inserir um texto',
+        comments: 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI',
         avatar: 'https://randomuser.me/api/portraits/women/87.jpg',
         textAlt: 'Mulher branca, de cabelo castanho claro longo, usando uma camisa vermelha, ao fundo uma parede marrom'
     },
     {
         id: 5,
         name: 'Pink Blue',
-        comments: 'Inserir um texto',
+        comments: 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI',
         avatar: 'https://randomuser.me/api/portraits/women/47.jpg',
         textAlt: 'Mulher branca, de cabelo castanho escuro curso e escaracolado,sorrindo, usando uma camisa cinza, ao fundo uma parede pink'
     }
